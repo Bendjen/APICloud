@@ -1,0 +1,11 @@
+<widget id="A6036465315898"  version="0.0.1">
+    <name>APICloud Demo</name>
+    <description>
+        API Example App.
+    </description>
+    <author email="unbolibobo@foxmail.com" href="https://github.com/Bendjen/APICloud"></author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="windowBackground" value="#FFF" />
+    <permission name="call" />
+</widget>
