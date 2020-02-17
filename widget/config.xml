@@ -6,6 +6,7 @@
     <author email="unbolibobo@foxmail.com" href="https://github.com/Bendjen/APICloud"></author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="statusBarAppearance" value="true" />
     <preference name="windowBackground" value="#FFF" />
     <permission name="call" />
 </widget>
