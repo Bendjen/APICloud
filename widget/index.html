@@ -22,9 +22,12 @@
             api.setStatusBarStyle({
                 style: 'dark',
             });
-        }
-        function test(){
-            alert(111)
+
+            api.openWin({
+                name: 'main',
+                url: './pages/main/index.html',
+                slidBackEnabled: false
+            });
         }
     </script>
 </body>
