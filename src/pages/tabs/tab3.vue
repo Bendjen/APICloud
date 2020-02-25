@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<Button size="large" @click="load">异步读取</Button>
+		<Button size="large" @click="load">异步读取33</Button>
 		<div>{{suggests}}</div>
 	</div>
 </template>

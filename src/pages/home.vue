@@ -2,9 +2,10 @@
 	<div>
 		<Header :left="false"/>
 		<Tabbar v-model="tabActive" id="tabbar" @change="changeTab" fixed>
-			<TabbarItem icon="home-o">标签123</TabbarItem>
+			<TabbarItem icon="home-o">标签</TabbarItem>
 			<TabbarItem icon="search" dot>标签</TabbarItem>
 			<TabbarItem icon="friends-o" info="5">标签</TabbarItem>
+			<TabbarItem icon="cart-o" info="5">调试</TabbarItem>
 		</Tabbar>
 	</div>
 </template>
@@ -60,7 +61,11 @@
 						{
 							name: "tab3",
 							url: "./tabs-tab3.html"
-						}
+						},
+						{
+							name: "tab4",
+							url: "./tabs-tab4.html"
+						},
 					]
 				},
 				(ret, err) => { // You must use arrow function that can been used 'THIS'
